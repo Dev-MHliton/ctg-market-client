@@ -1,7 +1,6 @@
 import Swal from "sweetalert2";
 
 const AddCarCard = ({ car, cars, setCars }) => {
-
     const { _id, photo, name, location, price, provider, rating, description } = car;
 
     const handleDelete = _id => {
@@ -49,6 +48,7 @@ const AddCarCard = ({ car, cars, setCars }) => {
                             alt="Car" />
                     </figure>
                     <div className="flex justify-between w-full p-4">
+
                         <div className="pl-12 pt-3">
                             <h2><strong>Name: </strong> {name}</h2>
                             <p><strong>Genre: </strong> {location}</p>
