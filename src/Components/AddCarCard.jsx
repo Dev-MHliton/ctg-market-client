@@ -49,7 +49,6 @@ const AddCarCard = ({ car, cars, setCars }) => {
                     </figure>
                     <div className="flex justify-between w-full p-4">
 
-
                         <div className="pl-12 pt-3">
                             <h2><strong>Name: </strong> {name}</h2>
                             <p><strong>Genre: </strong> {location}</p>
