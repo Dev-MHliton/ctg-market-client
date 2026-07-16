@@ -59,6 +59,7 @@ const AddCarCard = ({ car, cars, setCars }) => {
                             <p><strong>Summary: </strong> {description}</p>
                         </div>
 
+                        {/* btn all  */}
                         <div className="card-actions justify-end">
                             <div className="join join-vertical space-y-3">
                                 <button className="btn join-item btn-info rounded-lg">View</button>
