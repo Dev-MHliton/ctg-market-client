@@ -49,7 +49,7 @@ const AddCarCard = ({ car, cars, setCars }) => {
                     </figure>
                     <div className="flex justify-between w-full p-4">
 
-                        {/* card system  */}
+
                         <div className="pl-12 pt-3">
                             <h2><strong>Name: </strong> {name}</h2>
                             <p><strong>Genre: </strong> {location}</p>
@@ -59,7 +59,7 @@ const AddCarCard = ({ car, cars, setCars }) => {
                             <p><strong>Summary: </strong> {description}</p>
                         </div>
 
-                        {/* btn all  */}
+                        {/* button all  */}
                         <div className="card-actions justify-end">
                             <div className="join join-vertical space-y-3">
                                 <button className="btn join-item btn-info rounded-lg">View</button>
